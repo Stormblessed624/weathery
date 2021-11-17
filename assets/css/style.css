@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #6d8f76;
+    --secondary-color: #273a2d;
+    --tertiary-color: #15272d;
+  }
+  * {
+    padding: .4vw;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  .divider {
+    border-top: 2px solid black;
+  }
+  header h1 {
+    text-align: center;
+    background-image: linear-gradient(44deg, #0b3110, transparent);
+  }
+
+  button, .btnClass, .user-form, #city-name, .nopad {
+    width: 100%;
+    padding-left: .4vw;
+  }
+  .nopad {
+    border-right: 2px solid black;
+  }
+
+  weather-list {
+    padding: 5px;
+}
+
+  
+  .btn {
+    background-color: #15272d; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: .5vw;
+  }
+  .btnClass {
+    background-color: #6d8f76;
+    border: none;
+    color: white;
+    padding: 4px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: .5vw;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: bold;
+  }
+
+  #output-uv {
+    color: white;
+    border-radius: 10px;
+  }
+  .green {
+    background-color: green;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .red {
+    background-color: red;
+  }
